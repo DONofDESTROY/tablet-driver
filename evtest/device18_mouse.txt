@@ -1,0 +1,114 @@
+#the details of the pressure is added again because when pressing the upper button# and after that I cannot kill the evtest process by ctrl-c
+Select the device event number [0-18]: 18
+Input driver version is 1.0.1
+Input device ID: bus 0x3 vendor 0x5543 product 0x61 version 0x111
+Input device name: "UC-Logic A640 Mouse"
+Supported events:
+  Event type 0 (EV_SYN)
+  Event type 1 (EV_KEY)
+    Event code 272 (BTN_LEFT)
+    Event code 273 (BTN_RIGHT)
+    Event code 274 (BTN_MIDDLE)
+    Event code 330 (BTN_TOUCH)
+  Event type 3 (EV_ABS)
+    Event code 0 (ABS_X)
+      Value   4365
+      Min        0
+      Max     8000
+    Event code 1 (ABS_Y)
+      Value   3393
+      Min        0
+      Max     8000
+    Event code 24 (ABS_PRESSURE)
+      Value      0
+      Min        0
+      Max     8191
+  Event type 4 (EV_MSC)
+    Event code 4 (MSC_SCAN)
+Properties:
+  Property type 1 (INPUT_PROP_DIRECT)
+Testing ... (interrupt to exit)
+Event: time 1589462208.281871, type 3 (EV_ABS), code 0 (ABS_X), value 3017
+Event: time 1589462208.281871, type 3 (EV_ABS), code 1 (ABS_Y), value 2512
+Event: time 1589462208.281871, -------------- SYN_REPORT ------------
+Event: time 1589462208.329855, type 3 (EV_ABS), code 0 (ABS_X), value 3000
+Event: time 1589462208.329855, type 3 (EV_ABS), code 1 (ABS_Y), value 2530
+Event: time 1589462208.329855, -------------- SYN_REPORT ------------
+Event: time 1589462208.365854, type 3 (EV_ABS), code 0 (ABS_X), value 2985
+Event: time 1589462208.365854, type 3 (EV_ABS), code 1 (ABS_Y), value 2548
+Event: time 1589462208.365854, -------------- SYN_REPORT ------------
+Event: time 1589462208.389859, type 3 (EV_ABS), code 0 (ABS_X), value 2968
+Event: time 1589462208.389859, type 3 (EV_ABS), code 1 (ABS_Y), value 2569
+Event: time 1589462208.389859, -------------- SYN_REPORT ------------
+Event: time 1589462208.409820, type 3 (EV_ABS), code 0 (ABS_X), value 2953
+Event: time 1589462208.409820, type 3 (EV_ABS), code 1 (ABS_Y), value 2585
+Event: time 1589462208.409820, -------------- SYN_REPORT ------------
+Event: time 1589462208.429829, type 3 (EV_ABS), code 0 (ABS_X), value 2947
+Event: time 1589462208.429829, type 3 (EV_ABS), code 1 (ABS_Y), value 2610
+Event: time 1589462208.429829, -------------- SYN_REPORT ------------
+Event: time 1589462208.477853, type 3 (EV_ABS), code 0 (ABS_X), value 2933
+Event: time 1589462208.477853, type 3 (EV_ABS), code 1 (ABS_Y), value 2606
+Event: time 1589462208.477853, -------------- SYN_REPORT ------------
+Event: time 1589462208.809849, type 3 (EV_ABS), code 0 (ABS_X), value 2947
+Event: time 1589462208.809849, type 3 (EV_ABS), code 1 (ABS_Y), value 2590
+Event: time 1589462208.809849, -------------- SYN_REPORT ------------
+Event: time 1589462209.109819, type 3 (EV_ABS), code 0 (ABS_X), value 2960
+Event: time 1589462209.109819, type 3 (EV_ABS), code 1 (ABS_Y), value 2585
+Event: time 1589462209.109819, -------------- SYN_REPORT ------------
+Event: time 1589462209.169848, type 3 (EV_ABS), code 0 (ABS_X), value 2976
+Event: time 1589462209.169848, type 3 (EV_ABS), code 1 (ABS_Y), value 2590
+Event: time 1589462209.169848, -------------- SYN_REPORT ------------
+Event: time 1589462209.329848, type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003
+Event: time 1589462209.329848, type 1 (EV_KEY), code 274 (BTN_MIDDLE), value 1
+Event: time 1589462209.329848, -------------- SYN_REPORT ------------
+Event: time 1589462209.429847, type 3 (EV_ABS), code 0 (ABS_X), value 2978
+Event: time 1589462209.429847, type 3 (EV_ABS), code 1 (ABS_Y), value 2614
+Event: time 1589462209.429847, -------------- SYN_REPORT ------------
+Event: time 1589462209.525844, type 4 (EV_MSC), code 4 (MSC_SCAN), value 90003
+Event: time 1589462209.525844, type 1 (EV_KEY), code 274 (BTN_MIDDLE), value 0
+Event: time 1589462209.525844, -------------- SYN_REPORT ------------
+Event: time 1589462209.545817, type 3 (EV_ABS), code 0 (ABS_X), value 2974
+Event: time 1589462209.545817, type 3 (EV_ABS), code 1 (ABS_Y), value 2638
+Event: time 1589462209.545817, -------------- SYN_REPORT ------------
+Event: time 1589462209.929843, type 3 (EV_ABS), code 0 (ABS_X), value 2984
+Event: time 1589462209.929843, type 3 (EV_ABS), code 1 (ABS_Y), value 2610
+Event: time 1589462209.929843, -------------- SYN_REPORT -----------
+Event: time 1589462209.949826, type 3 (EV_ABS), code 0 (ABS_X), value 2998
+Event: time 1589462209.949826, type 3 (EV_ABS), code 1 (ABS_Y), value 2549
+Event: time 1589462209.949826, -------------- SYN_REPORT ------------
+Event: time 1589462209.957832, type 3 (EV_ABS), code 0 (ABS_X), value 3006
+Event: time 1589462209.957832, type 3 (EV_ABS), code 1 (ABS_Y), value 2508
+Event: time 1589462209.957832, -------------- SYN_REPORT ------------
+Event: time 1589462209.969826, type 3 (EV_ABS), code 0 (ABS_X), value 3035
+Event: time 1589462209.969826, type 3 (EV_ABS), code 1 (ABS_Y), value 2477
+Event: time 1589462209.969826, -------------- SYN_REPORT ------------
+Event: time 1589462211.541845, type 3 (EV_ABS), code 0 (ABS_X), value 3442
+Event: time 1589462211.541845, type 3 (EV_ABS), code 1 (ABS_Y), value 2937
+Event: time 1589462211.541845, -------------- SYN_REPORT ------------
+Event: time 1589462211.565818, type 3 (EV_ABS), code 0 (ABS_X), value 3424
+Event: time 1589462211.565818, type 3 (EV_ABS), code 1 (ABS_Y), value 2941
+Event: time 1589462211.565818, -------------- SYN_REPORT ------------
+Event: time 1589462211.585822, type 3 (EV_ABS), code 0 (ABS_X), value 3405
+Event: time 1589462211.585822, type 3 (EV_ABS), code 1 (ABS_Y), value 2949
+Event: time 1589462211.585822, -------------- SYN_REPORT ------------
+Event: time 1589462211.673830, type 3 (EV_ABS), code 0 (ABS_X), value 3390
+Event: time 1589462211.673830, type 3 (EV_ABS), code 1 (ABS_Y), value 2961
+Event: time 1589462211.673830, -------------- SYN_REPORT ------------
+Event: time 1589462211.701824, type 3 (EV_ABS), code 0 (ABS_X), value 3372
+Event: time 1589462211.701824, type 3 (EV_ABS), code 1 (ABS_Y), value 2972
+Event: time 1589462211.701824, -------------- SYN_REPORT ------------
+Event: time 1589462211.821795, type 4 (EV_MSC), code 4 (MSC_SCAN), value 90002
+Event: time 1589462211.821795, type 1 (EV_KEY), code 273 (BTN_RIGHT), value 1
+Event: time 1589462211.821795, -------------- SYN_REPORT ------------
+Event: time 1589462211.969829, type 3 (EV_ABS), code 0 (ABS_X), value 3384
+Event: time 1589462211.969829, type 3 (EV_ABS), code 1 (ABS_Y), value 3000
+Event: time 1589462211.969829, -------------- SYN_REPORT ------------
+Event: time 1589462212.017834, type 4 (EV_MSC), code 4 (MSC_SCAN), value 90002
+Event: time 1589462212.017834, type 1 (EV_KEY), code 273 (BTN_RIGHT), value 0
+Event: time 1589462212.017834, -------------- SYN_REPORT ------------
+Event: time 1589462212.057828, type 3 (EV_ABS), code 0 (ABS_X), value 3380
+Event: time 1589462212.057828, type 3 (EV_ABS), code 1 (ABS_Y), value 3045
+Event: time 1589462212.057828, -------------- SYN_REPORT ------------
+Event: time 1589462212.301826, type 3 (EV_ABS), code 0 (ABS_X), value 3390
+Event: time 1589462212.301826, type 3 (EV_ABS), code 1 (ABS_Y), value 3074
+Event: time 1589462212.301826, -------------- SYN_REPORT -------------
