@@ -1,0 +1,24 @@
+#it produced nothing and the previous  device 14 it also done nothing it just paste the contents from the clipboard
+Select the device event number [0-18]: 15
+Input driver version is 1.0.1
+Input device ID: bus 0x3 vendor 0x5543 product 0x61 version 0x111
+Input device name: "UC-Logic A640 Mouse"
+Supported events:
+  Event type 0 (EV_SYN)
+  Event type 1 (EV_KEY)
+    Event code 272 (BTN_LEFT)
+    Event code 273 (BTN_RIGHT)
+    Event code 274 (BTN_MIDDLE)
+    Event code 275 (BTN_SIDE)
+    Event code 276 (BTN_EXTRA)
+  Event type 2 (EV_REL)
+    Event code 0 (REL_X)
+    Event code 1 (REL_Y)
+    Event code 6 (REL_HWHEEL)
+    Event code 8 (REL_WHEEL)
+    Event code 11 (REL_WHEEL_HI_RES)
+    Event code 12 (REL_HWHEEL_HI_RES)
+  Event type 4 (EV_MSC)
+    Event code 4 (MSC_SCAN)
+Properties:
+Testing ... (interrupt to exit)
