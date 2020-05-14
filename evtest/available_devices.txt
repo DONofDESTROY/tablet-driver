@@ -1,0 +1,20 @@
+Available devices:
+/dev/input/event0:	Lid Switch
+/dev/input/event1:	Sleep Button
+/dev/input/event2:	Power Button
+/dev/input/event3:	AT Translated Set 2 keyboard
+/dev/input/event4:	ThinkPad Extra Buttons
+/dev/input/event5:	PC Speaker
+/dev/input/event6:	Video Bus
+/dev/input/event7:	SynPS/2 Synaptics TouchPad
+/dev/input/event8:	HDA Digital PCBeep
+/dev/input/event9:	HDA Intel PCH Mic
+/dev/input/event10:	HDA Intel PCH Headphone
+/dev/input/event11:	HDA Intel PCH HDMI/DP,pcm=3
+/dev/input/event12:	UC-Logic A640 Keyboard
+/dev/input/event13:	UC-Logic A640 Consumer Control
+/dev/input/event14:	UC-Logic A640 System Control
+/dev/input/event15:	UC-Logic A640 Mouse
+/dev/input/event16:	UC-Logic A640
+/dev/input/event17:	UC-Logic A640
+/dev/input/event18:	UC-Logic A640 Mouse
