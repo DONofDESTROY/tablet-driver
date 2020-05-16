@@ -1,0 +1,18 @@
+    |           Manufacturer: UC-Logic
+    |                Product: A640
+ 64 |        Params block #1: ????????
+    |                          Max X: 29616
+    |                          Max Y: 17170
+    |                   Max pressure: 8191
+    |                     Resolution: 5080
+    |
+ 79 |         Internal model: ??
+ 7b |         Buttons status: HK On
+ c8 |        Params block #2: F610_O0810_AP_T
+    |                          Max X: 3539014
+    |                          Max Y: 12544
+    |                   Max pressure: 48
+    |                     Resolution: 95
+    |
+ c9 |       Firmware version: F610_O0810_AP_T
+ ca |  Internal manufacturer: F610_O0810_AP_T
