@@ -1,0 +1,24 @@
+this is created for future use and for purley my understanding of the communication between the tablet and the linux 
+
+first this is the lsusb returns and the tablet is UC-Logic Technology Corp
+
+		Bus 003 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+		Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+		------------------------------------------------------------
+		|Bus 001 Device 003: ID 5543:0061 UC-Logic Technology Corp.|
+		------------------------------------------------------------
+		Bus 001 Device 002: ID 8087:0024 Intel Corp. Integrated Rate Matching Hub
+		Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+		Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+		Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+second this is the tablet descriptor has 3 interface and 1 Descriptor
+can be found by this command can be found in this folder
+					
+					lsusb -v -d 5543:0061
+
+third the command to see all the available interfaces are
+
+					sudo usbhid-dump -d 5543:0061
+
+returns the interfaces which is in the folder
+
